@@ -34,7 +34,6 @@ def consulta_cnpj():
 
            
 
-
 # Título da janela
 titulo = ctk.CTkLabel(window_cnpj, text = 'Consulta de CNPJ', font =('Arial',22), text_color = "#6d188f")
 titulo.pack(pady=10)
