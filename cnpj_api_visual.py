@@ -27,9 +27,9 @@ def consulta_cnpj():
                 f'Razão Social: {dados["razao_social"]}\n'
                 f'Situação Cadastral: {dados["situacao_cadastral"]}'
     )   
-    resultado.configure(text = informacao)
+        resultado.configure(text = informacao)
     except: 
-        resultado.configure(text = 'Erro na consulta. Verifique o CNPJ e tente novamente.')
+        resultado.configure(text = 'Erro na consulta. Verifique o CNPJ e tente novamente.', text_color = "#ff2c2c")
 
            
 
