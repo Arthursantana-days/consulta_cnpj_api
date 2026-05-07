@@ -1,3 +1,4 @@
+# Autor - Arthur Santana 
 # importar biblioteca visual
 import customtkinter as ctk
 # importar biblioteca de requisições
